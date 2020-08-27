@@ -1,0 +1,46 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    color: #808080;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    text-align: center;
+    padding: 2rem;
+    border-radius: 7px;
+    background: white;
+    flex: 0 0 80%;
+}
+button{
+    display: block;
+    font-size: 2rem;
+    margin: 1rem auto;
+    padding: 0.5rem 0.25rem;
+    color: #ffffff;
+    background: #da9604;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+input[type=text]{
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    border: 3px solid #da9604;
+    outline: none;
+}
+input[type=text]:focus{
+    box-shadow: 0 0 10px;
+}
+#messageOut{
+    margin: 0.5rem 0;
+    color: rgb(180, 80, 80);
+}
